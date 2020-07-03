@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5d576b;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app{
+    background-color: black;
+    box-shadow: 15px 11px 4px rgba(0, 0, 0, 0.74);
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.app-title{
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 20px;
+    position: relative;
+}
+
+.app-title h1{
+    text-transform: uppercase;
+}
+
+.app-title .kanji{
+    margin-right: 40px;
+    background-color: #5d576bad;
+    color: white;
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 91.5%;
+}
+
+.underline{
+    border-bottom: 3px solid white; 
+    width: 60%;
+    margin: 0 auto;
+}
+
+.quote-container{
+    display: flex;
+    padding: 30px;
+}
+
+.img-box{
+    flex: 1.5;
+    border: 1px solid #5d576b;
+    box-shadow: 1px 1px 15px white;
+    width: auto;
+    height: 400px;
+    position: relative;
+}
+
+.overlay-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(120%);
+}
+
+.quote-text{
+    flex: 2;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.quote-para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.quote-para span .fa-quote-left{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.quote-para span .fa-quote-right{
+    float: right;
+}
+
+.quote-para p{
+    font-size: 1.1rem;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px 0;
+    font-style: italic;
+}
+
+.direction-btn{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.left-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.right-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.random-btn{
+    float: right;
+    margin-top: 5px;
+}
+
+.rdm-btn{
+    background: black;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.rdm-btn:hover{
+    background: rgba(255, 255, 255, 0.61);
+    color: black;
+}
